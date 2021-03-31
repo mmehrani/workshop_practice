@@ -8,8 +8,8 @@ Created on Wed Mar 31 10:07:25 2021
 
 import numpy as np
 
-def new_func():
-    
+
+def new_func():    
     return
 
 def say_hello(name,last_name,language):
@@ -19,6 +19,7 @@ def say_hello(name,last_name,language):
         print('Buogiorno!'+ 'Signore/ Signora'+ last_name)
     return
 
+name = input('Enter your name: ').split()
 
-say_hello('Marzieh','Bathaee','Italian')
-say_hello('Abbas', 'Shojakani','English')
+say_hello(name[0],name[1],'Italian')
+
