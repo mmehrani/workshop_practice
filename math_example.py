@@ -10,4 +10,4 @@ import math
 import numpy as np
 
 a = 2 * np.cos(np.pi)
-print(a)
+print(round(a,4))
