@@ -9,3 +9,4 @@ Created on Wed Mar 31 10:07:25 2021
 import numpy as np
 
 print('Hello!')
+print('Bye')
