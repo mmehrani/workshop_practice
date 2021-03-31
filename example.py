@@ -8,5 +8,8 @@ Created on Wed Mar 31 10:07:25 2021
 
 import numpy as np
 
-print('Hello!')
-print('Bye')
+def say_hello():
+    print('Hello!')
+    return
+
+say_hello()
