@@ -8,8 +8,9 @@ Created on Wed Mar 31 10:07:25 2021
 
 import numpy as np
 
-def say_hello(name):
-    print('Hello!'+ name)
+def say_hello(name,last_name):
+    print('Hello!'+ 'Mr./Ms.'+ last_name)
+    print('We hope U doing well ' + name)
     return
 
-say_hello('Abbas')
+say_hello('Abbas','Shojakani')
